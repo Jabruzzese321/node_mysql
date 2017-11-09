@@ -57,8 +57,6 @@ function checkProduct(id, quantity) {
   
 function buyProduct(id, quantity){
   updatedQuantity = stock - quantity;
-  console.log(updatedQuantity);
-  console.log(id);
 
   var query = "UPDATE products SET ? WHERE ?";
 
