@@ -1,0 +1,23 @@
+{
+  "name": "node_mysql",
+  "version": "1.0.0",
+  "description": "Week #12 HW",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gracepark/node_mysql.git"
+  },
+  "author": "Grace Park",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gracepark/node_mysql/issues"
+  },
+  "homepage": "https://github.com/gracepark/node_mysql#readme",
+  "dependencies": {
+    "inquirer": "^3.3.0",
+    "mysql": "^2.15.0"
+  }
+}
